@@ -1,5 +1,4 @@
-class Solution(object):
-    def trap(self, height):
+def trap(height):
         ml=0
         mr=0
         tr=0
@@ -16,4 +15,4 @@ class Solution(object):
                 r-=1
         return tr
         
-print(Solution().trap([4,2,3]))
+print(trap([4,2,3]))
