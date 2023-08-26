@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title> My web </title>
+  <style>
+    body {
+    background-color: gray;
+    }
+	nav {
+	position:absolute;
+	top:0;
+	bottom:0;
+	height:100%;
+	left:0;
+	background:#D3D3D3;
+	overflow:hidden;
+	width:115px;
+	transition:width 0.2s  linear;
+	box-shadow:0 25px 35px rgba(0,0,0,0.1);
+    }
+    .navbar-nav{
+    list-style:none;
+    pading:0;
+	margin:0;
+	display:flex;
+	flex-direction:column;
+	align-items:left;
+    }
+	.nav-link{
+	display:flex;
+	align-items:left;
+    }
+	.link-text{
+	display:none;
+	margin-left:2rem;
+	align-items:center;
+    }
+	.nav-link svg{
+	min-width:2rem;
+	margin:0 1.5rem;
+    }
+   .navbar:hover{
+    width:13rem;
+    }
+    .navbar:hover .link-text{
+    display:block;
+    }			
+  </style>
+<head>
+<body> 
+  <nav class="navbar">
+  <br>
+  <ul class="navbar-nav">
+	<a class="nav-link" href="https://www.google.com/" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/706px-Google_%22G%22_Logo.svg.png" width="30" height="30"  />
+	  <span class="link-text">Google</span>
+	</a><br><br><br>
+	<a class="nav-link" href="https://www.youtube.com/" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" width="30" height="25"  />
+	  <span class="link-text">YouTube</span>
+	</a><br><br><br>
+	<a class="nav-link" href="https://www.facebook.com/" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1200px-Facebook_Logo_%282019%29.png" width="30" height="30"  />
+	  <span class="link-text">Facebook</span>
+	</a><br><br><br>
+  </ul>  
+  </nav>
+</body>
+</html>
