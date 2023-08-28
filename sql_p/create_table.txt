@@ -1,0 +1,17 @@
+-- create table User (userId int primary key, username varchar(25), phoneNum varchar(25));
+-- create table Buyer (userId int primary key);
+-- create table Seller (userId int primary key);
+-- create table CreditCard (cardNumber varchar(25) primary key, organization varchar(10));
+-- create table DebitCard (cardNumber varchar(25) primary key);
+-- create table BankCard (cardNumber varchar(25), userId int ,bank varchar(10) ,expiryDate date ,
+-- foreign key (userId) references Buyer(userId) on delete cascade on update cascade, 
+-- foreign key (userId) references Seller(userId) on delete cascade on update cascade,
+-- foreign key (cardNumber) references CreditCard(cardNumber) on delete cascade on update cascade,
+-- foreign key (cardNumber) references DebitCard(cardNumber) on delete cascade on update cascade);
+-- create table Store (sid int primary key, name varchar(25), startTime date, customerGrade int, streetAddr varchar(50), city varchar(25), province varchar(25));
+-- create table Product (pid int primary key, sid int, name varchar(25), brand varchar(25), type varchar(25), amount decimal(6,0), price decimal(6,0), colour varchar(25), customerReview varchar(5000), modelNumber int,
+-- foreign key (sid) references Store(sid) on delete cascade on update cascade);
+-- create table OrderItem (itemid int , pid int , price decimal(6,0), creationTime date,
+-- foreign key (pid) references Product(pid) on delete cascade on update cascade);
+-- create table Orderinfo (orderNumber int primary key, creationTime date, paymentStatus varchar(15), totalAmount decimal(6,0));
+-- create table Address (addrid int, userid int, name varchar(25), city varchar(25), postalCode int, streetAddr varchar(100), province varchar(25), contactPhoneNumber varchar(25));

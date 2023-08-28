@@ -1,0 +1,21 @@
+INSERT INTO store VALUES(8,'Choby Collection','Quebec','Montreal','No.2012 Sanguinet',4,'2006-5-30');
+INSERT INTO store VALUES(10,'BestBuy','British Columbia','Vancouver','No.20 ShineStreet',5,'2002-8-05');
+INSERT INTO store VALUES(39,'CoolGuy','Quebec','Montreal','No.1023 St-Catherine',3,'2012-2-24');
+INSERT INTO store VALUES(77,'Your Favorite','Ontario','Toronto','No.3022 Saint Denis',4,'2015-7-25');
+INSERT INTO store VALUES(218,'American Eagle','Quebec','Quebec city','No.5 Berri Street',2,'2004-11-17');
+
+INSERT INTO Brand VALUES('Asus');
+INSERT INTO Brand VALUES('Bose');
+INSERT INTO Brand VALUES('Canon');
+INSERT INTO Brand VALUES('DELL');
+INSERT INTO Brand VALUES('GoPro');
+INSERT INTO Brand VALUES('Microsoft');
+
+INSERT INTO Product VALUES(1,8,'Asus','ASUS Chromebook 11.6 laptop','laptop','C201PA-DS02','navy blue',10,262);
+INSERT INTO Product VALUES(2,10,'Bose','Bose QuietComfort 35 wireless headphone','headphone','759944-0010','black',100,449);
+INSERT INTO Product VALUES(3,39,'Canon','Canon EOS Rebel T5','cameras','9126B003','black',50,500);
+INSERT INTO Product VALUES(4,77,'DELL','DELL Ultra HD 4k Monitor P2715Q 27-Inch Screen LED-Lit Monitor','computer accessories','P2715Q','black',40,713);
+INSERT INTO Product VALUES(5,218,'GoPro','GoPro HERO5','cameras','CHDHX-501-CA','black',80,599);
+INSERT INTO Product VALUES(6,218,'Microsoft','Microsoft Xbox 360 Wired Controller for Windows','controllers','52A-00004','black',60,35);
+INSERT INTO Product VALUES(7,8,'Microsoft','Microsoft Sculpt Ergonomic Wireless Bluetrack Desktop Keyboard','computer accessories','L5V-00003','black',70,126);
+INSERT INTO Product VALUES(8,8,'Microsoft','Microsoft Surface Pro 4 i5 (128GB) with Wireless Media Adapter','laptop','CR5-00001','black',30,1350);

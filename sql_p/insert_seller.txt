@@ -1,0 +1,10 @@
+-- INSERT INTO seller VALUES (1);
+-- INSERT INTO seller VALUES (15);
+-- INSERT INTO seller VALUES (30);
+-- INSERT INTO seller VALUES (32);
+-- INSERT INTO seller VALUES (61);
+-- INSERT INTO seller VALUES (63);
+-- INSERT INTO seller VALUES (10);
+-- INSERT INTO seller VALUES (9);
+-- INSERT INTO seller VALUES (4);
+-- INSERT INTO seller VALUES (88);
